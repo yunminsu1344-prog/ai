@@ -12,9 +12,10 @@ def add_return(n):
         tot += i # tot = tot+i
     return tot
 PI = 3.141592
-''' 터미널에서 python add_operation.py 5
+'''
+    터미널에서 python add_operation.py 5
     인터프리터 선택 : ctrl+shift+p => select interpreter => (base)선택
-    터미널 띄우기 : ctrl+j    
+    터미널 띄우기 : ctrl+j
 '''
 if __name__=="__main__":
     import sys
@@ -28,7 +29,8 @@ if __name__=="__main__":
     add_print(var)
     print('2. add_return :', add_return(var))
     print(PI)
-    
+
+
 
 
 
